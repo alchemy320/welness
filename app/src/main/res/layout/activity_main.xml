@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health AND WELLNESS APP"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image2"
+            android:scaleType="center"
+            android:layout_marginTop="10dp"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+
+        <Button
+            android:id="@+id/healthy_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#000000"
+            android:padding="10dp"
+            android:text="Healthy Tips ❤️"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrition Advice"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#000000"
+            android:textStyle="bold"
+            android:id="@+id/nutition_advice"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#000000"
+            android:id="@+id/meditation"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydration Alert"
+            android:backgroundTint="#000000"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"
+
+            android:id="@+id/hydration_alert"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Exercise"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#000000"
+            android:id="@+id/start_exercise"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Motivation"
+            android:layout_margin="10dp"
+            android:backgroundTint="#000000"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:id="@+id/daily_motivation"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekly Goals"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#000000"
+            android:id="@+id/weekly_goals"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Progress"
+            android:layout_margin="10dp"
+            android:backgroundTint="#000000"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:id="@+id/wcheck_progress"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
